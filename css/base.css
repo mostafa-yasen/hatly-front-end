@@ -1,0 +1,40 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+/* Start Local Framefwork */
+.text-center {
+    text-align: center
+}
+
+.text-upper {
+    text-transform: uppercase;
+}
+
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+.text-right {
+    text-align: right
+}
+
+.text-fadded {
+    color: #424242;
+}
+
+.text-fadded-2 {
+    color: #888;
+}
+
+
+.text-primary {
+    color: #0a758e !important
+}
+/* End Local Framefwork */

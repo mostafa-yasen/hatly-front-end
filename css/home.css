@@ -1,0 +1,128 @@
+
+.download {
+    background: rgb(10,117,142);
+    background: linear-gradient(90deg, rgba(10,117,142,1) 0%, rgba(67,237,194,1) 100%);
+    min-height: calc(100vh - 56px);
+}
+
+.download .img-container {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 90px
+}
+
+.download .slogan {
+    font-family: 'Pacifico', cursive;
+}
+
+.download .logo-text {
+    font-family: 'Viga', sans-serif;
+}
+
+
+.row {
+    margin: 0 !important
+}
+
+.download .download-btns {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+.download .my-btn {
+    padding: 15px;
+    width: 100%;
+    background-color: rgba(56, 56, 56, 0.5098039215686274);
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    transition: .3s ease;
+}
+
+.download .my-btn:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0 3px 2px 1px rgba(0, 0, 0, 0.32941176470588235);
+}
+
+.download .my-btn span.icon {
+    font-size: 1.1em;
+    /* display: inline-block; */
+}
+.download .my-btn span svg {
+    /* margin-top: 5px */
+}
+
+/* Start Services */
+.services .title {
+    font-family: 'Pacifico', cursive;
+}
+
+.services .img-container {
+    width: 50%
+}
+
+.services .mobile-mockup {
+    margin-top: -50px;
+    min-height: 100%;
+    background: transparent url(../images/mobile.png) top center no-repeat;
+    background-size: cover;
+}
+
+.services .row:nth-child(2) .mobile-mockup {
+    margin-top: 0;
+}
+
+
+.services .mobile-mockup .img-container {
+    width: 75%;
+    margin: auto;
+    padding-top: 78px;
+}
+/* End Services */
+
+/* Start FAQ */
+.FAQ .control {
+    height: 50px;
+}
+.FAQ .control .my-btn-faq {
+    display: block;
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    transition: .3s ease;
+}
+.FAQ .control .my-btn-faq:hover {
+    background-color: #eee;
+}
+
+.FAQ .control .my-btn-faq.active {
+    background-color: #ddd
+}
+
+.FAQ .FAQ-content #travellerFAQ {
+    transition: .3s ease;
+    display: none;
+}
+/* End FAQ */
+
+/* Start About */
+#about .card {
+    box-shadow: -2px 5px 2px 0 rgba(0, 0, 0, 0.1);
+    transition: .5s ease;
+    cursor: pointer;
+}
+
+#about .card:hover {
+    box-shadow: 0px 2px 2px 0 rgba(0, 0, 0, 0.2);
+    /* transform: scale(1.01) */
+}
+/* End About */
+
+/* Start Contact */
+
+/* End Contact */
